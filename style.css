@@ -1,0 +1,228 @@
+/* General Reset */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Body and Main Content */
+body {
+   font-family: Arial, sans-serif;
+   background-color: #FAFAFA;
+   color: #333333;
+   line-height: 1.6;
+}
+
+main {
+   padding: 20px;
+   max-width: 800px;
+   margin: auto;
+}
+
+/* Header Styling */
+header {
+   background-color: #34495E;
+   color: #FFFFFF;
+   padding: 20px;
+   text-align: center;
+}
+
+header h1 {
+   font-size: 2.5em;
+   margin-bottom: 10px;
+}
+
+header nav ul {
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+header nav ul li a {
+   color: #E74C3C;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+header nav ul li a:hover {
+   color: #C0392B;
+}
+
+/* Article Titles */
+article header h2 {
+   color: #2C3E50;
+   font-size: 1.8em;
+   margin: 20px 0 10px;
+}
+
+article header h3 {
+   color: #7F8C8D;
+   font-size: 1.2em;
+   margin-bottom: 20px;
+}
+
+/* Quote Styling */
+blockquote {
+   border-left: 4px solid #E67E22;
+   padding-left: 10px;
+   font-style: italic;
+   color: #2C3E50;
+   background-color: #FBE9D0;
+   margin: 20px 0;
+}
+
+/* Paragraph Styling */
+p {
+   margin-bottom: 15px;
+}
+
+/* Footer Styling */
+footer {
+   background-color: #2C3E50;
+   color: #FFFFFF;
+   text-align: center;
+   padding: 20px;
+   margin-top: 40px;
+}
+
+footer h2, footer h3 {
+   margin: 10px 0;
+}
+
+footer img {
+   max-width: 100px;
+   border-radius: 50%;
+   margin-top: 10px;
+}
+
+footer a {
+   color: #E74C3C;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+footer a:hover {
+   color: #C0392B;
+}
+
+/* Sidebar and Form Styling */
+aside {
+   background-color: #F5F5F5;
+   padding: 20px;
+   border-radius: 8px;
+   margin: 20px 0;
+}
+
+aside h4 {
+   color: #34495E;
+   font-size: 1.4em;
+   margin-bottom: 15px;
+}
+
+aside nav ul {
+   list-style-type: none;
+}
+
+aside nav ul li {
+   margin-bottom: 10px;
+}
+
+aside nav ul li a {
+   color: #3498DB;
+   text-decoration: none;
+}
+
+aside nav ul li a:hover {
+   color: #2980B9;
+}
+
+/* Form Styling */
+form {
+   background-color: #FFFFFF;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   margin-top: 20px;
+}
+
+form label {
+   display: block;
+   margin-top: 10px;
+   color: #2C3E50;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+   width: 100%;
+   padding: 10px;
+   margin-top: 5px;
+   border: 1px solid #BDC3C7;
+   border-radius: 4px;
+}
+
+form input[type="radio"] {
+   margin-right: 5px;
+}
+
+form input[type="checkbox"] {
+   margin-right: 10px;
+}
+
+form input[type="submit"] {
+   background-color: #E74C3C;
+   color: #FFFFFF;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 1em;
+   margin-top: 15px;
+}
+
+form input[type="submit"]:hover {
+   background-color: #C0392B;
+}
+
+/* Button and Link Styling */
+button, a.button {
+   background-color: #3498DB;
+   color: #FFFFFF;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 4px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+}
+
+button:hover, a.button:hover {
+   background-color: #2980B9;
+}
+
+/* HR Styling */
+hr {
+   border: 0;
+   border-top: 1px solid #EAEAEA;
+   margin: 40px 0;
+}
+
+ 
+/* Read More Link Styling */
+a.read-more {
+   color: #3498DB; /* Blue color for links */
+   text-decoration: none; /* Remove underline */
+   font-weight: bold;
+   border: 1px solid #3498DB; /* Add a border */
+   padding: 5px 10px; /* Add some padding */
+   border-radius: 4px; /* Rounded corners */
+   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a.read-more:hover {
+   background-color: #3498DB; /* Blue background on hover */
+   color: #FFFFFF; /* White text on hover */
+}
